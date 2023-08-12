@@ -1,0 +1,11 @@
+
+public class Demo2 {
+	public static int checkmarks(int marks)
+	{
+		if(marks>=80)
+		{
+			System.out.println("Welcome to TechClub");
+		}
+		return marks;
+	}
+}

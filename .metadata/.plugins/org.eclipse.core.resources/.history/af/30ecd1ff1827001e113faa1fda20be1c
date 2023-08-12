@@ -1,0 +1,15 @@
+package addition;
+
+public class sub {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		long   a= 233;
+		 int  b=a;
+		 //int b;
+		 //b=(int)a;
+		       System.out.println(b);
+
+	}
+
+}

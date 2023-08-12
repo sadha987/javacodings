@@ -1,0 +1,13 @@
+package com.kodnest.training.methodoverloading;
+
+public class DisneyChai 
+{
+public static void greet(String name)
+{
+	System.out.println("Hello " + name +" "+"...How Are You");
+}
+public static void main(String args[])
+{
+	greet("omkar");
+}
+}

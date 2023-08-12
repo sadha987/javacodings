@@ -1,0 +1,15 @@
+package addition;
+
+public class sub {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a='d';
+		short b;
+		       b =a;//we cannot convert char to short it leads to lose of data .
+		       //   b=(short)a;
+		       System.out.println(b);
+
+	}
+
+}

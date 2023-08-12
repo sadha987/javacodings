@@ -1,0 +1,22 @@
+package com.kodnest.training.methodoverloading;
+import java.util.Scanner;
+
+public class DisneyChai 
+{
+public static void greet(String name)
+{
+	System.out.println("Hello" + name +" " + "How are you");
+}
+public static int calc(int age)
+{
+	return age;
+}
+public static void main(String args[] )
+{
+	Scanner scan =new Scanner(System.in);
+	
+	System.out.println("enter your name");
+	String name=scan.nextLine();
+	greet(name);
+}
+}
